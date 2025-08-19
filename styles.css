@@ -3,7 +3,7 @@ body {
   padding: 0 20px;
   max-width: 900px;
   margin: auto;
-  background: #f4f4f4;
+  background: #8f0505;
 }
 
 nav ul {
@@ -20,18 +20,19 @@ nav ul li {
 
 nav ul li a {
   text-decoration: none;
-  color: white;
+  color: rgb(117, 15, 121);
   padding: 10px 15px;
   display: inline-block;
 }
 
 nav ul li a.active,
 nav ul li a:hover {
-  background-color: #555;
+  background-color: #a3148b;
+  text-decoration: underline;
 }
 
 header, section {
-  background: white;
+  background: rgb(107, 220, 220);
   padding: 20px;
   margin-top: 20px;
   border-radius: 8px;
